@@ -5,7 +5,7 @@ pipeline {
         APP_DIR   = "/home/ubuntu/flask-app"
         VENV_DIR = "venv"
         FLASK_PORT = "5000"
-        FLASK_EC2 = "ubuntu@13.204.86.38"
+        FLASK_EC2 = "ubuntu@13.203.200.231"
         // FLASK_EC2 = "ubuntu@NEW IP"
     }
 
@@ -14,7 +14,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Thilakeshaws27/Flask-Jenkins-CI-CD-Pipeline.git'
+                    url: 'https://github.com/mohamedfazil2315/Jenkins-CI-CD-Pipeline.git'
             }
         }
 
