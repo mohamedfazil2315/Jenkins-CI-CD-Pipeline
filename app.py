@@ -8,7 +8,7 @@ def home():
 
 @app.route("/about") 
 def about(): 
-	return "Welcome the Sagaa Web App 5"
+	return "Welcome the FAZIL Web App 5"
     
 @app.route("/contact") 
 def contact(): 
